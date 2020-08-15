@@ -1,6 +1,12 @@
 $(function ($) {
   // Back to top button
   $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $(".navbar").addClass("bg-grey");
+    } else {
+      $(".navbar").removeClass("bg-grey");
+    }
+
     if ($(this).scrollTop() > 600) {
       $(".back-to-top").fadeIn("slow");
     } else {
