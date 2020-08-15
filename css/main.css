@@ -14,7 +14,12 @@ h5,
 h6 {
   font-weight: 700 !important;
 }
-
+.logo {
+  width: 300px;
+}
+.banner {
+  width: 100%;
+}
 .navbar-custom {
   background-color: white;
   padding: 0.1rem;
