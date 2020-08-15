@@ -1,0 +1,238 @@
+body {
+  color: #666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
+.navbar-custom {
+  background-color: white;
+  padding: 0.1rem;
+}
+.about {
+  padding-top: 2%;
+}
+
+.about-header {
+  color: #ffb600;
+}
+
+.about-body {
+  color: #555555;
+  font-size: 18px;
+}
+.about-item > .fa {
+  color: #10a0b6 !important;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.about-item {
+  white-space: nowrap;
+}
+
+.about-item > p {
+  display: inline-block;
+}
+
+.list {
+  padding-bottom: 2%;
+}
+
+.call-to-action {
+  font-size: 18px;
+  padding: 15px 10px !important;
+  margin: 20px;
+  background: rgba(153, 204, 0, 1);
+  border: 1px solid rgba(153, 204, 0, 1);
+  color: #fff;
+}
+.call-to-action:hover,
+.buy-button:hover {
+  color: #fff;
+  background: #73a800;
+  border: 1px solid #73a800;
+}
+
+.order {
+  padding: 30px;
+  background-color: #f8f8f8;
+}
+.order-header {
+  color: #00bcd4;
+}
+
+.text-crossed {
+  text-decoration: line-through;
+}
+
+.order-price {
+  color: #99cc00;
+}
+
+.buy-button {
+  font-size: 18px;
+  width: 15%;
+  margin: 20px;
+  color: #fff;
+  background: rgba(153, 204, 0, 1);
+  border: 1px solid rgba(153, 204, 0, 1);
+}
+
+.faq {
+  padding: 30px;
+}
+.faq-header {
+  color: #00bcd4;
+}
+.faq-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+.question {
+  color: #000;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button_link {
+  text-decoration: none !important;
+}
+.btn-wrap {
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.btn-tab {
+  background-color: #f0ecf5;
+  color: #444;
+  font-weight: 500 !important;
+}
+
+.btn-tab:hover {
+  background-color: #eee;
+}
+
+.worksheets {
+  margin-top: 2%;
+}
+.worksheet-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.worksheet-image {
+  width: 24%;
+}
+
+.sheet-type-1,
+.sheet-type-2,
+.sheet-type-3 {
+  margin-top: 2%;
+
+  font-size: 20px;
+}
+.sheet-type-1 {
+  color: #00bcd4;
+}
+
+.sheet-type-2 {
+  color: #ffb600;
+}
+
+.sheet-type-3 {
+  color: #70ab00;
+}
+.worksheet-image > img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.selected {
+  background-color: #337ab7 !important;
+  color: #fff !important;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+}
+
+.back-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top i {
+  padding-top: 12px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+.footer {
+  background-color: #eee;
+  color: #797979 !important;
+}
+
+@media (max-width: 992px) {
+  .about-item {
+    padding-left: 2rem;
+  }
+  .buy-button {
+    width: auto;
+  }
+  .worksheet-images {
+    flex-direction: column;
+  }
+
+  .worksheet-image {
+    width: 100%;
+  }
+  .sheet-type-1,
+  .sheet-type-2,
+  .sheet-type-3 {
+    margin-top: 5%;
+  }
+  .sticky-top {
+    position: relative;
+  }
+}
