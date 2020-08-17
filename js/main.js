@@ -40,11 +40,8 @@ $(function ($) {
       if (target.length) {
         var top_space = 0;
 
-        if ($(".navbar").length) {
+        if ($(".navbar").length && $(".navbar").hasClass("sticky-top")) {
           top_space = $(".navbar").outerHeight();
-          if ($(".navbar").hasClass("sticky-top")) {
-            top_space = top_space - 20;
-          }
         }
 
         $("html, body").animate(
