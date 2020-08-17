@@ -215,12 +215,6 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-}
-
 .footer {
   background-color: #eee;
   color: #797979 !important;
@@ -247,5 +241,17 @@ h6 {
   }
   .sticky-top {
     position: relative;
+  }
+
+  .faq-container {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+  }
+  .question {
+    font-size: 1rem;
+  }
+  .back-to-top {
+    bottom: 15px;
   }
 }
