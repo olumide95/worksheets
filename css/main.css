@@ -72,7 +72,7 @@ h6 {
 }
 .call-to-action:hover,
 .buy-button:hover {
-  color: #fff !important;
+  color: #fff;
   background: #73a800;
   border: 1px solid #73a800;
 }
@@ -97,7 +97,7 @@ h6 {
   font-size: 18px;
   width: 15%;
   margin: 20px;
-  color: #fff !important;
+  color: #fff;
   background: rgba(153, 204, 0, 1);
   border: 1px solid rgba(153, 204, 0, 1);
 }
